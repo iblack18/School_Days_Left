@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect, request
+from flask import Flask, render_template
 import days_left
 import datetime
 app = Flask(__name__)
