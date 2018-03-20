@@ -1,0 +1,7 @@
+* BSM Days Left
+Countdown of days still remaining in the schoolyear.
+
+* Things To Fix
+** TODO Timezone difference
+** TODO Fix the link in the footer
+** TODO Cleanup the codebase of junk
