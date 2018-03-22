@@ -1,4 +1,5 @@
 import datetime
+import pytz
 
 def school_day(date):
     if date.weekday() == 6 and date.weekday() == 5:
@@ -26,9 +27,12 @@ def school_end(date):
     if date.day == 23:
         if date.month == 5:
             return True
-
+        
 def days(date):
+    chicago = pytz.timezone("America/Chicago")
+    date = chicago.localize(date)
     days = 0
+
     while True:
         date += datetime.timedelta(days=1)
         if school_day(date) == True:

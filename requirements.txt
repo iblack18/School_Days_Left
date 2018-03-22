@@ -9,3 +9,4 @@ Jinja2==2.9.6
 MarkupSafe==1.0
 update-checker==0.16
 Werkzeug==0.12.2
+pytz
