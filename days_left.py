@@ -40,4 +40,5 @@ def days(date):
                 days += 1
         if school_end(date) == True:
             break
-    return days
+            # Senior retreat day unknown to me, will remove negative one from code when it happens
+    return (days - 1)
