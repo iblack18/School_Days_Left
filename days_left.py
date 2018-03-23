@@ -2,7 +2,7 @@ import datetime
 import pytz
 
 def school_day(date):
-    if date.weekday() == 6 and date.weekday() == 5:
+    if date.weekday() == 6 or date.weekday() == 5:
         return False
     else:
         return True
