@@ -18,6 +18,9 @@ def holiday(date):
         # Easter Monday
         if date.day == 2:
             return True
+        # Senior Retreat
+        elif date.day == 10:
+            return True
         else:
             return False
     else:
@@ -27,7 +30,10 @@ def school_end(date):
     if date.day == 23:
         if date.month == 5:
             return True
+
         
+        
+#main function
 def days(date):
     chicago = pytz.timezone("America/Chicago")
     date = chicago.localize(date)
@@ -40,5 +46,4 @@ def days(date):
                 days += 1
         if school_end(date) == True:
             break
-            # Senior retreat day unknown to me, will remove negative one from code when it happens
-    return (days - 1)
+    return (days)
