@@ -1,0 +1,31 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+  width: 40%;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    display: inline;
+}
+
+#num {
+    font-size: 80px;
+    display: inline;
+}
+
+footer {
+  padding-top: 50px;
+}
+
+.container {
+    text-align: center;
+}
+
